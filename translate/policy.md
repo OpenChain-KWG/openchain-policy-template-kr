@@ -1167,8 +1167,372 @@ BOM (Bill of Materials)
 * 바이너리 형태로 배포
 * 소스 형태로 배포
 * 추가 라이선스 의무를 유발하는 다른 오픈소스와 통합
-* 수정된 오픈소스를 포함
-* 배포용 소프트웨어 내의 다른 컴포넌트와 서로 호환되지 않는 라이선스 하의 오픈소스 또는 다른 소프트웨어가 포함
+* 수정된 오픈소스 포함
+* 배포용 소프트웨어 내의 다른 컴포넌트와 서로 호환되지 않는 라이선스 하의 오픈소스 또는 다른 소프트웨어를 포함
 * 저작자 표시 요구사항을 갖는 오픈소스 포함
 
 # 68
+
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.3.2.1 A documented procedure for handling the common open source license use cases for the open source components of the supplied software.
+
+배포용 소프트웨어 내의 오픈소스 컴포넌트에 대해 일반적인 오픈소스 라이선스 사용 사례를 처리하기 위한 문서화된 절차
+
+
+## Conformance Questions
+
+> 3.c Have you implemented a procedure that handles at least the following common open source license use cases for the open source components of each supplied Supplied Software release?
+> 
+> 3.c.i - distributed in binary form;
+> 
+> 3.c.ii - distributed in source form;
+> 
+> 3.c.iii - integrated with other open source such that it may trigger copyleft obligations;
+> 
+> 3.c.iv - contains modified open source;
+> 
+> 3.c.v - contains open source or other software under an incompatible license interacting with other components within the Supplied Software;
+> 
+> 3.c.vi - contains open source with attribution requirements.
+
+각 배포용 소프트웨어 릴리스 내의 오픈소스 컴포넌트에 대해 적어도 다음과 같은 일반적인 오픈소스 라이선스 사용 사례를 처리하는 절차를 구현했습니까?
+
+* 3.c.i - 바이너리 형태로 배포;
+* 3.c.ii - 소스 형태로 배포;
+* 3.c.iii - Copyleft 의무를 발생시킬 수 있는 다른 오픈 소스와 통합;
+* 3.c.iv - 수정된 오픈소스 포함;
+* 3.c.v - 배포용 소프트웨어 내의 다른 컴포넌트와 서로 호환되지 않는 라이선스 하의 오픈소스 또는 다른 소프트웨어를 포함;
+* 3.c.vi - 저작자 표시 요구사항을 갖는 오픈소스 포함
+
+## Generic Policy Text
+
+> [Appendix 2: licenses] contains a list of the licenses covering the code in each release of supplied software categorising how each license deals with distribution in binary form, source form, strong or weak copyleft, provided on a SaaS basis, is modified or contains attribution requirements. Any code which is released under a license not in the database shall be referred to review as set out in [reference].
+> 
+> The inclusion of any code into any release of supplied software shall follow [Appendix 3: Source acceptability criteria].
+
+[부록 2: 라이선스]에는 배포용 소프트웨어의 각 릴리스 내 코드에 적용된 라이선스 목록이 포함되어 있으며, 각 라이선스가 다음의 배포 형태별 처리하는 방식을 분류했다. - 바이너리 형태, 소스 형태, 강한/약한 Copyleft, SasS 기반 제공, 수정 여부, 저작자 표시 요구 오픈소스 포함 등. 이 자료에 없는 라이선스 하에 공개된 코드는 [reference]에 명시된 검토 방법을 참조해야 한다. 
+
+배포용 소프트웨어의 릴리스에 코드를 포함시키려면 [부록 3: 소스 허용 기준]을 따라야 한다. 
+
+## Foundation Specific
+
+(상동)
+
+# 69
+
+> 3.3.2.R To ensure the program is sufficiently robust to handle an organization’s common open source license use cases. That a procedure exists to support this activity and that the procedure is followed.
+
+프로그램이 조직의 일반적인 오픈소스 라이선스 사용 사례를 처리하기에 충분히 견고하고, 이 활동을 지원하기 위한 절차가 존재하며 이 절차가 준수됨을 보장하기 위해서이다. 
+
+# 70
+
+> 3.4 Compliance artifact creation and delivery
+
+컴플라이언스 산출물 생성 및 제공
+
+# 71 
+
+> 3.4.1 Compliance artifacts
+
+컴플라이언스 산출물
+
+# 72
+
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.4.1.0 A process exists for creating the set of compliance artifacts for the supplied software.
+
+배포용 소프트웨어에 대한 컴플라이언스 산출물을 생성하는 프로세스가 있어야 한다. 
+
+## Generic Policy Text
+
+> Open source licenses attach a variety of requirements to the distribution of source and/or binaries. Some require notices to be displayed by or with the running code, while others have requirements relating to the content and location of attribution, copyright statements, disclaimers and similar. Copyleft licenses also require copies of corresponding source to be made available to the recipient or to the general public. A failure to comply with any of these requirements would breach the license and is non-compliance with this policy with potentially serious consequences. For convenience, all these various materials are called "compliance artifacts", and the compilation of them into a specific release of supplied software is called the compliance log book.
+
+오픈소스 라이선스는 소스 및/또는 바이너리 배포에 대한 다양한 요구사항을 갖고 있다. 일부는 실행 중인 코드에 의해 또는 실행 중인 코드와 함께 표시되어야 하는 고지를 요구하는 반면, 다른 일부는 저작자 표시, 저작권 진술, 면책 조항 및 이와 유사한 내용 및 표시 위치와 관련된 요구사항을 갖고 있다. 또한 Copyleft 라이선스는 수취인 또는 일반 대중에게 소스 코드 사본을 공개할 것을 요구한다. 이러한 요구사항 중 하나라도 준수하지 않으면 라이선스 위반이 되며, 이 정책을 준수하지 못하게 되는 것으로 잠재적으로 심각한 결과를 초래하게 된다. 편의상, 이러한 모든 다양한 자료를 "컴플라이언스 산출물"이라고 하며, 이 자료들을 하나의 배포용 소프트웨어의 특정 릴리스를 위해 취합한 것을 컴플라이언스 로그 북이라고 부른다. 
+
+## Foundation Specific
+
+(상동)
+
+# 73
+
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.4.1.1 A documented procedure that describes the process under which the compliance artifacts are prepared and distributed with the supplied software as required by the identified licenses.
+
+식별된 라이선스가 요구하는 컴플라이언스 산출물을 준비하고, 이를 배포용 소프트웨어와 함께 제공하기 위한 프로세스를 설명하는 문서화된 절차
+
+
+## Conformance Questions
+
+> 4.a Do you have a documented procedure that describes a process that ensures the Compliance Artifacts are distributed with Supplied Software as required by the Identified Licenses?
+
+식별된 라이선스가 요구하는 컴플라이언스 산출물을 준비하고, 이를 배포용 소프트웨어와 함께 제공하기 위한 프로세스를 설명하는 문서화된 절차가 있습니까?
+
+## Generic Policy Text
+
+> For each component which is incorporated into a supplied software release, the appropriate compliance artifacts shall be compiled into the compliance log book for that release. The compliance log book shall be compiled in such a format that it complies with the relevant license terms (for example, it may be necessary to provide the specific text of a license, rather than a link to the text). Where appropriate, and required by the mode of distribution of the release, the compliance log book shall also be published online at [insert link].
+> 
+> In general, we favour providing the whole of the text of the relevant license in the compliance log book, even if only providing part of the text (e.g. an attribution notice and disclaimer) is permissible.
+
+배포용 오픈소스 릴리스에 통합된 각 컴포넌트에 대한 적절한 컴플라이언스 산툴물이 해당 릴리스의 컴플라이언스 로그북에 튀합되어야 한다. 컴플라이언스 로그 북은 관련 라이선스 조건을 준수하는 형식으로 컴파일 되어야 한다 (예: 텍스트에 대한 링크가 아닌 라이선스의 특정 텍스트를 제공해야 할 수 있다). 해당되는 경우, 그리고, 릴리스의 배포 형태에 따라 요구되는 경우, 컴플라이언스 로그 북은 [insert link]에 온라인으로 공개되어야 한다. 
+
+일반적으로, 텍스트의 일부(예: 저작권 고지, 면책 조항)만 제공하는 것이 허용되더라도 컴플라이언스 로그 북에 관련 라이선스의 전체 텍스크를 제공하는 것이 좋다. 
+
+## Foundation Specific
+
+> For each component which is incorporated into a supplied software release, the appropriate compliance artifacts shall be compiled into the compliance log book for that release. The compliance log book shall be compiled in such a format that it complies with the relevant license terms (for example, it may be necessary to provide the specific text of a license, rather than a link to the text). Where appropriate, and required by the mode of distribution of the release, the compliance log book shall also be published online at [insert link].
+> 
+> Where the distribution mode of the supplied software release is from a specific repository which also contains the source code, the project repository shall be considered to be the “compliance log book” provided that it complies with all the requirements of the identified licenses, and it shall therefore be considered to be “published” for the purposes of this policy.
+> 
+> In general, we favour providing the whole of the text of the relevant license in the compliance log book, even if only providing part of the text (e.g. an attribution notice and disclaimer) is permissible.
+
+배포용 오픈소스 릴리스에 통합된 각 컴포넌트에 대한 적절한 컴플라이언스 산툴물이 해당 릴리스의 컴플라이언스 로그북에 튀합되어야 한다. 컴플라이언스 로그 북은 관련 라이선스 조건을 준수하는 형식으로 컴파일 되어야 한다 (예: 텍스트에 대한 링크가 아닌 라이선스의 특정 텍스트를 제공해야 할 수 있다). 해당되는 경우, 그리고, 릴리스의 배포 형태에 따라 요구되는 경우, 컴플라이언스 로그 북은 [insert link]에 온라인으로 공개되어야 한다. 
+
+배포용 소프트웨어 릴리스의 배포 형태가 소스 코드도 포함하는 특정 리포지토리에서 제공하는 경우, 식별된 라이선스의 모든 요구사항을 준수한다면, 해당 프로젝트 리포지토리를 "컴플라이언스 로그"로 간주할 수 있다. 따라서 이 정책의 목적에 따라 "공개"된 것으로 간주한다. 
+
+일반적으로, 텍스트의 일부(예: 저작권 고지, 면책 조항)만 제공하는 것이 허용되더라도 컴플라이언스 로그 북에 관련 라이선스의 전체 텍스크를 제공하는 것이 좋다. 
+
+# 74
+
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.4.1.2 A documented procedure for archiving copies of the compliance artifacts of the supplied software  
+> - where the archive is planned to exist for a reasonable period of time (determined by domain, legal jurisdiction and/or customer contracts) since the last offer of the supplied software; or as required by the identified licenses (whichever is longer).  
+Records exist that demonstrate the procedure has been properly followed.  
+
+배포용 소프트웨어의 컴플라이언스 산출물 사본을 보관하기 위한 문서화된 절차 
+  - 산출물 사본은 배포용 소프트웨어의 마지막 배포 이후 합리적인 기간 (도메인, 법적 관할권 및/또는 고객 계약에 따라 결정) 동안 혹은 식별된 라이선스에서 요구하는 기간 동안 보관해야 한다(둘 중 더 긴 기간을 따름). 
+  - 이러한 절차가 올바르게 수행되었음을 입증하는 기록이 존재해야 한다. 
+
+
+## Conformance Questions
+
+> 4.b Do you archive copies of the Compliance Artifacts of the Supplied Software?
+
+배포용 소프트웨어의 컴플라이언스 산출물 사본을 보관합니까?
+
+
+> 4.c Are the copies of the Compliance Artifacts archived for at least as long as the Supplied Software is offered or as required by the Identified Licenses (whichever is longer)?
+
+컴플라이언스 결과물 사본은 적어도 배포용 소프트웨어가 제공되는 중이거나 식별된 라이선스가 요구하는 기간 중 더 긴 시간 동안 보관됩니까?
+
+## Generic Policy Text
+
+> The compliance artifacts for all previous releases of supplied software shall be retained [in the open source log] and archived as set out above [insert reference].
+
+배포용 소프트웨어의 모든 이전 릴리스에 대한 컴플라이언스 산출물은 [오픈소스 로그]에 유지되어야 하며 위의 [insert reference]에 명시된 대로 보관되어야 한다. 
+
+## Foundation Specific
+
+(상동)
+
+# 75
+
+> 3.4.1.R To ensure reasonable commercial efforts have been instituted in the preparation of the compliance artifacts that accompany the supplied software, as required by the identified licenses.
+
+식별된 라이선스에서 요구하는 대로 배포용 소프트웨어와 함께 제공해야 하는 컴플라이언스 산출물을 준비하는데 합당한 상업적 노력을 기울이고 있음을 보장하기 위해서이다. 
+
+
+# 76
+
+> 3.5 Understand open Source community engagement
+
+오픈소스 커뮤니티 참여에 대한 이해
+
+# 77
+
+> 3.5.1 Contributions
+
+기여
+
+# 78
+
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.5.1.0 If an organization considers contributions to open source projects, then:  
+• a written policy exists that governs contributions to open source projects;  
+• the policy must be internally communicated; and  
+• a process exists that implements the policy
+
+조직이 외부 오픈소스 프로젝트로의 기여를 허용하려고 한다면,
+* 오픈소스 프로젝트로의 기여를 관리하는 문서화된 정책이 있어야 한다. 
+* 이 정책을 내부에 전파해야 한다.
+* 정책을 시행하는 프로세스가 있어야 한다. 
+
+## Conformance Questions
+
+> 5.a Do you have a policy that governs contributions to open source projects on behalf of the organization?
+
+조직을 대신하여 오픈소스 프로젝트에 기여하는 것을 관리하는 정책이 있습니까?"
+
+## Generic Policy Text
+
+> [Our own open source projects have a vibrant community around them, and we encourage participation from people both inside and outside [COMPANY]. For more information, please see [OUR PROJECT AND COMMUNITY]].
+> 
+> We recognise the benefits of becoming involved in open source projects, from personal satisfaction of our team, through to gaining in-depth understanding of the project in question, being able to help influence the direction of movement of the project as a whole, and also ensuring that any bug fixes and enhancements we contribute are not kept to ourselves (which would, over time, mean we have forked the project, and creates a support headache) but become part of the main supported release.
+> 
+> 
+> OR
+> 
+> 
+> We recognise the benefit of open source projects and are supportive of their goals. Where deemed appropriate by the Open Source Liaison we may contribute bug fixes or other material to projects of our choosing. Unapproved contributions may not be made by any staff of the company at any time.
+
+[우리의 오픈소스 프로젝트는 활발한 커뮤니티를 가지고 있으며, [기업] 내부 및 외부의 참여를 권장한다. 자세한 내용은 [OUR PROJECT AND COMMUNITY]를 참고할 수 있다.]
+
+우리는 오픈소스 프로젝트에 참여함으로써 얻을 수 있는 다음과 같은 이점을 인식하고 있다. 
+- 팀내 인원의 개인적 만족부터 
+- 해당 프로젝트에 대한 심층적인 이해
+- 프로젝트 전체의 방향에 영향
+- 우리가 기여한 버그 수정 및 개선 사항을 우리만 보유(시간이 지남에 따라 프로젝트를 분기하여 추가로 지원해야 하는 문제가 발생함을 의미)하지 않고, 오픈소스 릴리스의 일부가 되도록 함 
+
+또는
+
+우리는 오픈소스 프로젝트의 이점을 인식하고 그들의 목표를 지원한다. 오픈소스 연락 담당자가 적절하다고 판단하는 경우, 우리는 우리가 선택한 프로젝트에 버그 수정 또는 기타 자료를 제공할 수 있다. 단, 어떤 인원도 승인되지 않은 기여를 할 수 없다. 
+
+## Foundation Specific
+
+> Our own open source projects have a vibrant community around them, and we encourage participation from people both inside and outside the [FOUNDATION].
+> 
+> We recognise the benefits of becoming involved in other relevant open source projects, from personal satisfaction of our team, through to gaining in-depth understanding of the project in question, being able to help influence the direction of movement of the project as a whole, and also ensuring that any bug fixes and enhancements we contribute are not kept to ourselves (which would, over time, mean we have forked the project, and creates a support headache) but become part of the main supported release. We also support interoperability of open source projects, and adherence to open standards.
+
+우리의 오픈소스 프로젝트 프로젝트는 활발한 커뮤니티를 가지고 있으며 [재단] 내부 및 외부의 참여를 권장한다. 
+
+우리는 오픈소스 프로젝트에 참여함으로써 얻을 수 있는 다음과 같은 이점을 인식하고 있다. 
+- 팀내 인원의 개인적 만족부터 
+- 해당 프로젝트에 대한 심층적인 이해
+- 프로젝트 전체의 방향에 영향
+- 우리가 기여한 버그 수정 및 개선 사항을 우리만 보유(시간이 지남에 따라 프로젝트를 분기하여 추가로 지원해야 하는 문제가 발생함을 의미)하지 않고, 오픈소스 릴리스의 일부가 되도록 함 
+
+우리는 또한 오픈소스 프로젝트의 상호 운용성과 개방형 표준 준수를 지원한다. 
+
+# 79
+
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.5.1.1 A documented open source contribution policy
+
+문서화된 오픈소스 기여 정책
+
+## Generic Policy Text
+
+> We encourage our team to get involved in open source (and similar) projects outside [COMPANY]. If you want to join a project, please see the Open Source Compliance Lead for more information. Aside from projects that [COMPANY] has involvement in, feel free to contribute to other projects in your own time. Note, however, your obligations to [COMPANY] relating to trade secrets and our intellectual property. For this reason, you must clear any participation with Open Source Compliance Lead before starting to contribute to projects which may have some connection with your work for [COMPANY].
+> 
+> OR
+> 
+> 
+> We do not generally encourage involvement in open source (and similar) projects outside [COMPANY]. If you wish to become involved in a project outside [COMPANY] please seek explicit permission from the Open Source Liaison. This is required given your obligations to [COMPANY] relating to trade secrets and our intellectual property.
+
+우리는 [기업] 외부의 오픈소스 (및 유사) 프로젝트에 참여할 것을 권장한다. 프로젝트에 참여하고 싶은 경우 자세한 내용은 오픈소스 컴플라이언스 책임자에게 문의할 수 있다. [기업]이 관여하는 프로젝트 외에도 자신의 시간에 다른 프로젝트에 자유롭게 기여할 수 있다. 그러나 [기업]의 영업 비밀 및 지적 재산에 대한 의무가 있음에 유의해야 한다. 따라서 [기업]에서의 업무와 관련이 있을 수 있는 오픈소스 프로젝트에 기여하기 전에 오픈소스 컴플라이언스 책임자와 문제될 만한 여지를 모두 제거해야 한다. 
+
+또는
+
+일반적으로 [기업] 외부의 오픈소스 (및 유사) 프로젝트에 참여하는 것을 권장하지 않는다. [기업] 외부 프로젝트에 참여하고 싶다면 오픈소스 연락 담당자에게 명시적인 허가를 요청해야 한다. 이것은 [기업]에 대한 영업 비밀 및 지적 재산에 대한 의무를 감안할 때 필요하다. 
+
+## Foundation Specific
+
+> We encourage our team to get involved in open source (and similar) projects outside the [FOUNDATION]. If you want to join a project, please see the Open Source Compliance Lead for more information. Aside from projects that the [FOUNDATION] has involvement in, feel free to contribute to other projects in your own time. Note, however, your obligations to the [FOUNDATION] relating to trade our own intellectual property. For this reason, you must clear any participation with the [Open Source Compliance Lead B | Open Source Liaison] before starting to contribute to projects which may have some connection with your work for the [FOUNDATION]. Permission will only be withheld in exceptional circumstances.
+
+우리는 [재단] 외부의 오픈소스 (및 유사) 프로젝트에 참여할 것을 권장한다. 프로젝트에 참여하고 싶은 경우 자세한 내용은 오픈소스 컴플라이언스 책임자에게 문의할 수 있다. [재단]이 관여하는 프로젝트 외에도 자신의 시간에 다른 프로젝트에 자유롭게 기여할 수 있다. 그러나 [재단]의 영업 비밀 및 지적 재산에 대한 의무가 있음에 유의해야 한다. 따라서 [재단]에서의 업무와 관련이 있을 수 있는 오픈소스 프로젝트에 기여하기 전에 [오픈소스 컴플라이언스 책임자][오픈소스 연락담당자]와 문제될 만한 여지를 모두 제거해야 한다. 예외적인 상황에서만 허가가 보류 된다. 
+
+# 80
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.5.1.2 A documented procedure that governs open source contributions
+
+오픈소스 기여를 관리하는 문서화된 절차
+
+## Conformance Questions
+
+> 5.b Do you have a documented procedure that governs Open Source contributions?
+
+오픈소스 기여를 관리하는 문서화된 절차가 있습니까?
+
+## Generic Policy Text
+
+> In order to contribute to an approved open source project, you may be asked to sign a certificate of origin, a contributor license agreement, or other document. It may be the case that we already have a signed blanket agreement in place, for example. Before contributing to any open source projects, you must check with Open Source Compliance Lead, and make sure that all requirements relating to documentation are fulfilled. You may use your [COMPANY] email address to register and identify yourself as the source of contributions once this clearance has been obtained.
+
+승인된 오픈소스 프로젝트에 기여하려면, 출처 증명서(certifiate of origin), 기여자 라이선스 계약(contributor license agreement) 또는 기타 문서에 서명하라는 요청을 받을 수 있다. 기업이 이미 총괄 계약으로 서명한 경우일 수도 있다. 따라서 오픈소스 프로젝트에 기여하기 전에 오픈소스 컴플라이언스 책임자에게 문의하여 문서와 관련된 모든 요구사항을 충족하는지 확인해야 한다. 이러한 허가를 받은 후에 [기업] 이메일 주소를 사용하여 기여자 출처로 자신을 등록할 수 있다. 
+
+## Foundation Specific
+
+> In order to contribute to an external open source project on behalf of the [FOUNDATION], you may be asked to sign a certificate of origin, a contributor license agreement, or other document. It may be the case that we already have a signed blanket agreement in place, for example. Before contributing to any open source projects, you must check with Open Source Compliance Lead, and make sure that all requirements relating to documentation are fulfilled. You may use your email address to register and identify yourself as the source of contributions once this clearance has been obtained.
+
+[재단]을 대신하여 외부 오픈소스 프로젝트에 기여하려면, 출처 증명서(certifiate of origin), 기여자 라이선스 계약(contributor license agreement) 또는 기타 문서에 서명하라는 요청을 받을 수 있다. 기업이 이미 총괄 계약으로 서명한 경우일 수도 있다. 따라서 오픈소스 프로젝트에 기여하기 전에 오픈소스 컴플라이언스 책임자에게 문의하여 문서와 관련된 모든 요구사항을 충족하는지 확인해야 한다. 이러한 허가를 받은 후에 자신의 이메일 주소를 사용하여 기여자 출처로 자신을 등록할 수 있다. 
+
+# 81
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.5.1.3 A documented procedure that makes all program participants aware of the existence of the Open Source contribution policy (e.g., via training, internal wiki, or other practical communication method)
+
+모든 프로그램 참여자가 오픈소스 기여 정책의 존재를 인식하도록 하는 문서화된 절차 (예: 교육, 내부 위키, 또는 기타 실질적인 전달 방법 등)
+
+## Conformance Questions
+
+> 5.c Do you have a documented procedure that makes all Software Staff aware of the existence of the Open Source contribution policy?
+
+모든 프로그램 참여자가 오픈소스 기여 정책의 존재를 인식하도록 하는 문서화된 절차가 있습니까?
+
+## Generic Policy Text
+
+> More information about contributing to open source projects can be found [HERE] and the policy and training related to it is covered in the training referred to in [REF:TRAINING] above.
+
+오픈소스 프로젝트로의 기여에 대한 자세한 내용은 [HERE]에서 찾을 수 있으며, 이와 관련된 정책 및 교육은 위의 [REF:TRAINING]에 언급된 교육에서 다룬다. 
+
+## Foundation Specific
+
+(상동)
+
+# 82
+
+> 3.5.1.R When an organization permits open source contributions, the intent is that the organization has given reasonable consideration to developing and implementing a contribution policy. The open source contribution policy can be made a part of the overall open source policy or be its own separate policy.
+
+조직이 오픈소스 기여를 허용하려 한다면, 먼저 기여정책을 수립하고 이를 이행하는데 필요한 사항을 합리적으로 고려하게 하기 위해서이다. 오픈소스 기여 정책은 전체 오픈소스 정책의 일부로 포함시키거나, 자체적인 별도의 정책이 될 수도 있다. 
+
+# 83
+
+> 3.6 Adherence to the Specification Requirements
+
+규격 요구사항 준수
+
+# 84
+
+> 3.6.1 Conformance
+
+적합 (Conformance)
+
+# 85
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.6.1.0 In order for a program to be deemed OpenChain conformant, the organization must affirm that the program satisfies the requirements presented in the specification.
+
+프로그램이 OpenChain에 적합하다고 간주하기 위해서는 조직은 프로그램이 이 규격에서 제시한 모든 요구사항을 충족하는지 확인해야 한다.
+
+## Generic Policy Text
+
+> [COMPANY] supports the Linux Foundation's OpenChain project. This is a conformance program designed to ensure that we know what code we have and are using; that it complies with the licensing obligations attached to it; that our team are trained in and understand issues around open source licensing and their use and deployment of code within [COMPANY], and that [COMPANY] has both internally- and externally-facing open source officers who are able to handle queries and support COMPANY's open source use and deployment. This policy has been carefully designed to be compliant with the OpenChain Specification v2.1, ISO/IEC 5230:2020. For more information about the OpenChain project, please see OpenChainProject.org
+
+[기업]은 Linux Foundation의 OpenChain 프로젝트를 지원한다. 이는 다음을 보장하기 위해 설계된 적합 프로그램이다. 
+- 어떤 코드를 가지고 있고, 어떤 코드를 사용하고 있는지 안다.
+- 첨부된 라이선스 의무를 준수한다. 
+- 오픈소스 라이선스 및 [기업] 내 코드 사용 및 배포와 관련된 문제에 대해 교육을 받고 이해한다. 
+- [기업]에는 문의를 처리하고 기업의 오픈소스 사용 및 배포를 지원할 수 있는 내부 및 외부의 오픈소스 담당자가 있다. 
+
+이 정책은 OpenChain 규격 v2.1, ISO/IEC 5230:2020을 준수하도록 신중하게 설계되었다. OpenChain 프로젝트에 대한 자세한 내용은 OpenChainProject.org를 참조할 수 있다. 
+
+## Foundation Specific
+
+> The [FOUNDATION] supports the Linux Foundation's OpenChain project. This is a conformance program designed to ensure that we know what code we have and are using; that it complies with the licensing obligations attached to it; that our team are trained in and understand issues around open source licensing and their use and deployment of code within the [FOUNDATION], and that the [FOUNDATION] has both internally- and externally-facing open source officers who are able to handle queries and support the [FOUNDATION]'s open source use and deployment. This policy has been carefully designed to be compliant with the OpenChain Specification v2.1, ISO/IEC 5230:2020. For more information about the OpenChain project, please see OpenChainProject.org.
+
+[재단]은 Linux Foundation의 OpenChain 프로젝트를 지원한다. 이는 다음을 보장하기 위해 설계된 적합 프로그램이다. 
+- 어떤 코드를 가지고 있고, 어떤 코드를 사용하고 있는지 안다.
+- 첨부된 라이선스 의무를 준수한다. 
+- 오픈소스 라이선스 및 [재단] 내 코드 사용 및 배포와 관련된 문제에 대해 교육을 받고 이해한다. 
+- [재단]에는 문의를 처리하고 기업의 오픈소스 사용 및 배포를 지원할 수 있는 내부 및 외부의 오픈소스 담당자가 있다. 
+
+이 정책은 OpenChain 규격 v2.1, ISO/IEC 5230:2020을 준수하도록 신중하게 설계되었다. OpenChain 프로젝트에 대한 자세한 내용은 OpenChainProject.org를 참조할 수 있다. 
+
+# 86
+
+
