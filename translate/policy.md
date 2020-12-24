@@ -1500,7 +1500,7 @@ Records exist that demonstrate the procedure has been properly followed.
 
 > 3.6.1 Conformance
 
-적합 (Conformance)
+적합성 (Conformance)
 
 # 85
 ## OpenChain Specification v2.1, ISO/IEC 5230:2020
@@ -1534,5 +1534,96 @@ Records exist that demonstrate the procedure has been properly followed.
 이 정책은 OpenChain 규격 v2.1, ISO/IEC 5230:2020을 준수하도록 신중하게 설계되었다. OpenChain 프로젝트에 대한 자세한 내용은 OpenChainProject.org를 참조할 수 있다. 
 
 # 86
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.6.1.1 A document affirming the program specified in requirement §3.1.4 satisfies all the requirements of this specification.
+
+요구사항 3.1.4조에서 명시한 프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서
+
+## Conformance Questions
+
+> 6.a Do you have documentation confirming that your Program meets all the requirements of this specification?
+
+프로그램이 이 규격의 모든 요구사항을 충족함을 확인하는 문서가 있습니까?
+
+
+## Generic Policy Text
+
+> [COMPANY] affirms that as of  
+• [insert date] and in respect of [describe supplied software A]  
+• [insert date] and in respect of [describe supplied software B]  
+it is in compliance with the OpenChain Specification v 2.1, ISO/IEC 5230:2020. [Our public declaration can be found here [insert link]].
+
+[기업]은 
+- [describe supplied software A]에 대해서는 [insert date]부로
+- [describe supplied software B]에 대해서는 [insert date]부로
+OpenChain 규격 v2.1 ISO/IEC 5230:2020을 준수함을 확인한다. [공개적인 선언문은 여기에서 확인할 수 있다. [insert link]]
+
+
+## Foundation Specific
+
+(상동)
+
+# 87
+> 3.6.1.R To ensure that if an organization declares that it has a program that is OpenChain conforming, that such program has met all the requirements of this specification. The mere meeting of a subset of these requirements would not be considered sufficient.
+
+조직이 OpenChain에 적합한 프로그램을 보유했다고 선언하는 것은 그 프로그램이 이 규격의 모든 요구사항을 충족한 것임을 보장하기 위해서이다. 이 요구사항의 일부 만을 충족하는 것으로는 충분하지 않다.
+
+# 88
+> 3.6.2	Duration
+지속 기간
+
+# 89
+> 3.6.2.0	A program that is OpenChain conformant with version 2.1 of the specification will last 18 months from the date conformance validation was obtained. The conformance validation registration procedure can be found on the OpenChain project’s website.
+
+이 규격의 버전 2.1에 적합한 OpenChain 프로그램은 적합성 인증을 획득한 날로부터 18개월 동안 지속되어야 한다. 적합성 인증 등록 절차는 OpenChain 프로젝트의 웹사이트에서 확인할 수 있다. 
+
+# 90
+## OpenChain Specification v2.1, ISO/IEC 5230:2020
+
+> 3.6.2.1 A document affirming the program meets all the requirements of this version of the specification (version 2.1), within the past 18 months of obtaining conformance validation
+
+프로그램이 적합성 인증을 획득한 후 지난 18개월 동안 이 규격 버전(v2.1)의 모든 요구사항을 충족하고 있음을 확인하는 문서
+
+## Conformance Questions
+
+> 6.b Do you have documentation confirming that your Program conformance was reviewed within the last 18 months?
+
+지난 18개월 이내에 프로그램 적합성을 검토했음을 확인하는 문서가 있습니까?
+
+
+## Generic Policy Text
+
+> [COMPANY] affirms that within the past 18 months of obtaining conformance validation, the program meets all the requirements of the OpenChain Specification v2.1, ISO/IEC 5230:2020. [Our public declaration can be found here [insert link]].  
+> 
+> [COMPANY]'s affirmation of conformance will be reviewed and renewed if appropriate at intervals of at least [12|18 months].
+> 
+> The effectiveness and performance of this open source policy will be reviewed at [the same time as affirmation], and changes will be made and communicated in line with this policy where appropriate.
+
+[기업]은 적합성 인증을 획득한 후 지난 18개월 이내에 프로그램이 OpenChain 규격 v2.1, ISO/IED 5230:2020의 모든 요구사항을 충족함을 확인한다. [공개적인 선언문은 여기에서 확인할 수 있다. [insert link]]
+
+[기업]의 적합성 확인은 최소 [12 | 18개월] 간격으로 검토 및 갱신될 것이다.
+
+이 오픈소스 정책의 효과와 성과는 [확인과 동시에] 검토될 것이며, 필요에 따라 이 정책은 변경 및 전파될 것이다.
+
+## Foundation Specific
+
+> The [FOUNDATION] affirms that within the past 18 months of obtaining conformance validation, the program meets all the requirements of the OpenChain Specification v2.1, ISO/IEC 5230:2020. [Our public declaration can be found here [insert link]].
+> 
+> The [FOUNDATION]'s affirmation of conformance will be reviewed and renewed if appropriate at intervals of at least [12|18 months].
+> 
+> The effectiveness and performance of this open source policy will be reviewed at [the same time as affirmation], and changes will be made and communicated in line with this policy where appropriate.
+
+[재단]은 적합성 인증을 획득한 후 지난 18개월 이내에 프로그램이 OpenChain 규격 v2.1, ISO/IED 5230:2020의 모든 요구사항을 충족함을 확인한다. [공개적인 선언문은 여기에서 확인할 수 있다. [insert link]]
+
+[재단]의 적합성 확인은 최소 [12 | 18개월] 간격으로 검토 및 갱신될 것이다.
+
+이 오픈소스 정책의 효과와 성과는 [확인과 동시에] 검토될 것이며, 필요에 따라 이 정책은 변경 및 전파될 것이다.
+
+# 91
+
+> 3.6.2.R	It is important for a program to remain current with the specification if an organization wants to assert conformance over time. This requirement ensures that the program’s supporting processes and controls do not erode if an organization continues to assert program conformance over time.
+
+조직이 시간이 지나도 적합성을 주장하고자 한다면 프로그램을 규격에 맞게 계속 유지하는 것이 중요하다. 이 요구사항은 조직이 시간이 지난 후에도 계속해서 프로그램 적합성을 주장하더라도 프로그램의 지원 프로세스와 통제가 약화되지 않았음을 보장하기 위해서이다. 
 
 
