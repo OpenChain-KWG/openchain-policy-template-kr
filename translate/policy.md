@@ -95,7 +95,7 @@ If you are an external contributor to projects, you are not bound by this policy
 
 > 2.1	"compliance artifacts" - a collection of artifacts that represent the output of a compliance program and accompany the supplied software. The collection may include (but is not limited to) one or more of the following: attribution notices, source code, build and install scripts, copy of licenses, copyright notices, modification notifications, written offers, open source component bill of materials, and SPDX documents.
 
-2.1 "컴플라이언스 산출물" - 컴플라이언스 프로그램의 결과물을 의미한다. 배포용 소프트웨어 공급 시 함께 제공해야 하는 산출물의 모음이다.
+2.1 "컴플라이언스 산출물" - 컴플라이언스 프로그램의 결과물을 나타내며 배포용 소프트웨어와 함께 제공해야 하는 산출물의 모음이다.
 
 참고: 여기에는 다음 중 하나 이상이 포함된다(단, 이에 국한되지 않음) : 저작자 고지, 소스 코드, 빌드 및 설치 스크립트, 라이선스 사본, 저작권 고지, 수정 내용 고지, 서면 청약(Written Offer), 오픈소스 컴포넌트 BOM (Bill of Materials), SPDX 문서.
 
@@ -127,7 +127,7 @@ If you are an external contributor to projects, you are not bound by this policy
 
 > 2.2	“identified licenses” - a set of open source software licenses identified as a result of following an appropriate method of identifying open source components from which the supplied software is comprised.
 
-2.2 "식별된 라이선스" - 배포용 소프트웨어에 포함된 오픈소스 컴포넌트를 식별하기 위한 적절한 방법으로 식별된 일련의 오픈소스 소프트웨어 라이선스 집합이다.
+2.2 "식별된 라이선스" - 배포용 소프트웨어에 포함된 오픈소스 컴포넌트를 식별하기 위한 적절한 방법으로 식별된 일련의 오픈소스 라이선스 집합이다.
 
 ## Generic Policy Text
 
@@ -267,7 +267,7 @@ If you are an external contributor to projects, you are not bound by this policy
 
 > 2.7 “SPDX” - the format standard created by the Linux Foundation’s SPDX (Software Package Data Exchange) Working Group for exchanging bill of materials for a given software package, including associated license and copyright information (see [spdx.org](http://spdx.org/)).
 
-2.7 "SPDX" - 소프트웨어 패키지를 주고 받을때 라이선스 및 저작권 정보를 포함한 BOM(Bill of Materials)을 교환하기 위해 Linux Fouindation의 SPDX(Software Package Data Exchange) Working Group에서 만든 형식 표준이다([spdx.org](http://spdx.org/) 참조).
+2.7 "SPDX" - 소프트웨어 패키지를 주고 받을 때 라이선스 및 저작권 정보를 포함한 BOM(Bill of Materials)을 교환하기 위해 Linux Fouindation의 SPDX(Software Package Data Exchange) Working Group에서 만든 형식 표준이다([spdx.org](http://spdx.org/) 참조).
 
 ## Generic Policy Text
 
@@ -345,7 +345,7 @@ ISO 및 IEC는 다음 주소에서 표준화에 사용할 용어 정의 데이�
 
 > 3.1.1.0 A written open source policy exists that governs open source license compliance of the supplied software. The policy must be internally communicated.
 
-3.1.1.0 배포용 소프트웨어의 오픈소스 라이선스 컴플라이언스 관리를 위한 문서화된 오픈소스 정책이 있어야 한다. 이 정책은 조직 내부에 전파되어야 한다.
+3.1.1.0 배포용 소프트웨어의 오픈소스 라이선스 컴플라이언스를 관리하는 문서화된 오픈소스 정책이 있어야 한다. 이 정책은 조직 내부에 전파되어야 한다.
 
 # 24
 
@@ -427,7 +427,7 @@ ISO 및 IEC는 다음 주소에서 표준화에 사용할 용어 정의 데이�
 3.1.2.0 조직은 다음 사항을 수행해야 한다:
 
 - 프로그램의 성과와 효율에 영향을 미치는 역할이 무엇인지, 그 역할에 해당하는 책임은 무엇인지 확인한다.
-- 각 역할을 수행하는 프로그램 참여자가 갖춰야 할 필요 역량을 결정한다.
+- 각 역할을 수행할 프로그램 참여자가 갖춰야 할 필요 역량을 결정한다.
 - 프로그램 참여자가 적절한 교육, 훈련 및/또는 경험을 바탕으로 자격을 갖춘 자임을 확인한다.
 - 해당되는 경우, 필요한 역량을 확보하기 위해 조치한다.
 - 역량 보유를 증명하기 위한 정보를 문서화하여 유지한다.
@@ -1043,7 +1043,7 @@ The Open Source Compliance Lead shall be responsible for
 # 59
 > To ensure: i) program responsibilities are effectively supported and resourced and ii) policies and supporting processes are regularly updated to accommodate changes in open source compliance best practices.
 
-i) 프로그램 내 각 역할을 효과적으로 지원하며 리소스를 제공하고, ii) 정책 및 지원 프로세스는 오픈소스 컴플라이언스 모범 사례의 변경 사항을 수용하도록 정기적으로 업데이트되고 있음을 보장하기 위해서이다. 
+i) 프로그램 내 각 역할을 효과적으로 지원하며 리소스를 제공하고, ii) 정책 및 지원 프로세스가 오픈소스 컴플라이언스 모범 사례의 변경 사항을 수용하도록 정기적으로 업데이트되고 있음을 보장하기 위해서이다. 
 
 # 60
 
@@ -1143,7 +1143,7 @@ BOM (Bill of Materials)
 
 > 3.3.1.R To ensure a process exists for creating and managing an open source component bill of materials used to construct the supplied software. A bill of materials is needed to support the systematic review and approval of each component’s license terms to understand the obligations and restrictions as it applies to the distribution of the supplied software.
 
-배포용 소프트웨어를 구성하는데 사용되는 오픈소스 컴포넌트 BOM을 생성하고 관리하기 위한 프로세스가 있음을 보장하기 위해서이다. 배포용 소프트웨어를 배포하는데 적용되는 의무와 제한 사항을 이해하기 위해 각 컴포넌트의 라이선스 조항에 대한 체계적인 검토 및 승인을 지원하려면 BOM이 필요하다. 
+배포용 소프트웨어를 구성하는데 사용되는 오픈소스 컴포넌트 BOM을 생성하고 관리하기 위한 프로세스가 있음을 보장하기 위해서이다. 배포용 소프트웨어를 배포하는데 적용되는 의무와 제한 사항을 이해하기 위해서는 각 컴포넌트의 라이선스 조항에 대한 체계적인 검토 및 승인을 지원하는 BOM이 필요하다.
 
 # 66
 
@@ -1488,7 +1488,7 @@ Records exist that demonstrate the procedure has been properly followed.
 
 > 3.5.1.R When an organization permits open source contributions, the intent is that the organization has given reasonable consideration to developing and implementing a contribution policy. The open source contribution policy can be made a part of the overall open source policy or be its own separate policy.
 
-조직이 오픈소스 기여를 허용하려 한다면, 먼저 기여정책을 수립하고 이를 이행하는데 필요한 사항을 합리적으로 고려하게 하기 위해서이다. 오픈소스 기여 정책은 전체 오픈소스 정책의 일부로 포함시키거나, 자체적인 별도의 정책이 될 수도 있다. 
+조직이 오픈소스 기여를 허용하려 한다면, 먼저 기여 정책을 수립하고 이를 이행하는데 필요한 사항을 합리적으로 고려하게 하기 위해서이다. 오픈소스 기여 정책은 전체 오픈소스 정책의 일부로 포함시키거나, 자체적인 별도의 정책이 될 수도 있다. 
 
 # 83
 
@@ -1567,7 +1567,7 @@ OpenChain 규격 v2.1 ISO/IEC 5230:2020을 준수함을 확인한다. [공개적
 # 87
 > 3.6.1.R To ensure that if an organization declares that it has a program that is OpenChain conforming, that such program has met all the requirements of this specification. The mere meeting of a subset of these requirements would not be considered sufficient.
 
-조직이 OpenChain에 적합한 프로그램을 보유했다고 선언하는 것은 그 프로그램이 이 규격의 모든 요구사항을 충족한 것임을 보장하기 위해서이다. 이 요구사항의 일부 만을 충족하는 것으로는 충분하지 않다.
+조직이 OpenChain에 적합한 프로그램을 보유했다고 선언하는 것은 그 프로그램이 이 문서의 모든 요구사항을 충족하고 있음을 보장하기 위해서이다. 이 요구사항의 일부 만을 충족하는 것으로는 충분하지 않다.
 
 # 88
 > 3.6.2	Duration
@@ -1624,6 +1624,6 @@ OpenChain 규격 v2.1 ISO/IEC 5230:2020을 준수함을 확인한다. [공개적
 
 > 3.6.2.R	It is important for a program to remain current with the specification if an organization wants to assert conformance over time. This requirement ensures that the program’s supporting processes and controls do not erode if an organization continues to assert program conformance over time.
 
-조직이 시간이 지나도 적합성을 주장하고자 한다면 프로그램을 규격에 맞게 계속 유지하는 것이 중요하다. 이 요구사항은 조직이 시간이 지난 후에도 계속해서 프로그램 적합성을 주장하더라도 프로그램의 지원 프로세스와 통제가 약화되지 않았음을 보장하기 위해서이다. 
+조직이 시간이 지나도 적합성을 주장하고자 한다면 프로그램을 규격에 맞게 계속 유지하는 것이 중요하다. 이 요구사항은 시간이 지난 후 조직이 계속해서 프로그램 적합성을 주장하더라도 프로그램의 지원 프로세스와 통제가 약화되지 않았음을 보장하기 위해서이다.
 
 
